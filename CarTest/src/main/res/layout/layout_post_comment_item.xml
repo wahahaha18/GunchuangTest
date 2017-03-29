@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/user_comment_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/touxiang2_2x"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/user_comment_icon"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:id="@+id/user_comment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:textSize="16sp"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/user_post_comment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:textSize="12sp"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/user_post_comment_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="userssssssssssssssssssssssssssssssssssssssssssssssssssss"
+        android:textSize="14sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black"/>
+</LinearLayout>

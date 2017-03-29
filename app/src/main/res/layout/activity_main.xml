@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="500px"
+    android:layout_height="500px"
+    android:layout_centerInParent="true"
+    android:background="@color/colorAccent"
+
+    tools:context="com.example.sun0002.gunchuangtest.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="184px"
+        android:layout_height="216px"
+        android:layout_x="220px"
+        android:layout_y="78px">
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="horizontal">-->
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--/>-->
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--/>-->
+        <!--<View-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="30px"-->
+        <!--android:layout_height="80px"-->
+        <!--android:layout_centerInParent="true"></LinearLayout>-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/d004" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="160px"
+        android:layout_height="60px"
+        android:layout_x="294px"
+        android:layout_y="156px"
+        android:enabled="true"
+        android:gravity="center"
+        android:text="Sample Text"
+        android:textSize="9sp" />
+
+</AbsoluteLayout>
