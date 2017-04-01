@@ -6,7 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/GunchuangTest.iml" filepath="$PROJECT_DIR$/GunchuangTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/circle/circle.iml" filepath="$PROJECT_DIR$/circle/circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/formtest/formtest.iml" filepath="$PROJECT_DIR$/formtest/formtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/horizontalscrollviewtest/horizontalscrollviewtest.iml" filepath="$PROJECT_DIR$/horizontalscrollviewtest/horizontalscrollviewtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple/simple.iml" filepath="$PROJECT_DIR$/simple/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switchtest1/switchtest1.iml" filepath="$PROJECT_DIR$/switchtest1/switchtest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/switctest/switctest.iml" filepath="$PROJECT_DIR$/switctest/switctest.iml" />
       <module fileurl="file://$PROJECT_DIR$/takephoto_library/takephoto_library.iml" filepath="$PROJECT_DIR$/takephoto_library/takephoto_library.iml" />
     </modules>
   </component>

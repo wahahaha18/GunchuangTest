@@ -1,1 +1,1 @@
-include ':app', ':simple', ':takephoto_library', ':CarTest', ':circle'
+include ':app', ':simple', ':takephoto_library', ':CarTest', ':circle', ':switctest', ':formtest', ':switchtest1', ':horizontalscrollviewtest'
